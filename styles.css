@@ -96,6 +96,7 @@ button{
     margin-left:1rem;
     text-align: center;
 }
+
 /* Output */
 #output{
     border: 1px solid black;
@@ -127,6 +128,7 @@ button{
     font-size:2rem;
 }
 
+/* spaces */
 #space{
     height: 5vh;
 }
