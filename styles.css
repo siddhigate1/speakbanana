@@ -25,6 +25,26 @@ body{
     font-size: 30px;
 }
 
+/* hero */
+.hero{
+    padding: 0rem;
+}
+
+.hero-image{
+    max-width:350px;
+    display: block;
+    margin:auto;
+    width:150px;
+    height:150px;
+    padding-top: 3rem;
+    
+}
+.hero-heading{
+    color:var(--primary-color);
+    padding-top:0rem;
+    text-align: center;
+}
+
 /* containers */
 .container{
     padding-left: 1rem;
@@ -93,17 +113,19 @@ button{
     background-color:var(--primary-color);
     padding:2rem 0rem;
     text-align: center;
-    color:white;
+    color:black;
     border-top-right-radius:1rem;
 }
 
 .footer .footer-header{
-    font-weight: bold;
-    font-size: large;
+    
+    font-size: 1.4rem;
     padding-inline-start:0px;
 }
 
-
+.footer-about{
+    font-size:2rem;
+}
 
 #space{
     height: 5vh;
